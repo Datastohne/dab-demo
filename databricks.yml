@@ -28,3 +28,9 @@ environments:
   development:
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com/
+  qa:
+    workspace:
+      host: https://e2-demo-field-eng.cloud.databricks.com/
+  production:
+    workspace:
+      host: https://e2-demo-field-eng.cloud.databricks.com/

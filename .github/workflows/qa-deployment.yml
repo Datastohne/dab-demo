@@ -56,9 +56,9 @@ jobs:
       # Use the downloaded Databricks CLI.
       - uses: databricks/setup-cli@main
 
-      # Run the Databricks workflow named "my-job" as defined in the
+      # Run the Databricks workflow named "retrieve-filter-baby-names-job" as defined in the
       # bundle that was just deployed.
-      - run: databricks bundle run my-job --refresh-all
+      - run: databricks bundle run retrieve-filter-baby-names-job --refresh-all
         working-directory: .
         env:
           DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }}
