@@ -27,4 +27,10 @@ resources:
 environments:
   development:
     workspace:
-      host: https://e2-demo-field-eng.cloud.databricks.com/
+      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+  qa:
+    workspace:
+      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+  production:
+    workspace:
+      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
