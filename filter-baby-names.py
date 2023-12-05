@@ -5,3 +5,7 @@ years = spark.sql("select distinct(Year) from babynames_table").rdd.map(lambda r
 years.sort()
 dbutils.widgets.dropdown("year", "2014", [str(x) for x in years])
 display(babynames.filter(babynames.Year == dbutils.widgets.get("year")))
+
+# COMMAND ----------
+
+print('hello world')
