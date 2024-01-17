@@ -8,4 +8,4 @@ dbutils.fs.put("dbfs:/FileStore/babynames.csv", csvfile, True)
 
 # COMMAND ----------
 
-print('hello world')
+print('hello')
